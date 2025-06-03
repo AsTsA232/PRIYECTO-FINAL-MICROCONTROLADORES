@@ -4,7 +4,7 @@ Diseñar sistemas basados en microcontroladores, mediante la escritura de códig
 Indicaciones:
 La figura representa el diseño de un sistema de adquisición de datos deun satélite de navegación(GNSS). 
 Los datos de(al menos)las coordenadas de nuestra ubicación, el tiempo y la velocidaddeben ser obtenidas del satélite,mostradas en un LCD 
-(a través de la interfaz I2C) y en una terminal de la computadora(a través del protocolo USB). 
+ y en una terminal de la computadora(a través del protocolo USB). 
 Además (en tierra),se deben obtener los datos detemperatura y humedad registrados (en tiemporeal) por el módulo BME280; 
 dichos datos deben mostrarse en la terminal y en el LCD.Tanto en la terminal como en el LCD, se deben mostrar textos para indicar la fuente y 
 tipo de información (por ejemplo:coordenadas obtenidas del satélite, temperaturaen la localidad(BME280)y otras).
